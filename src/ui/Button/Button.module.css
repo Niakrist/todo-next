@@ -1,0 +1,33 @@
+.addTask {
+  padding: 16px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--gray-100);
+  font-family: var(--font-family), sans-serif;
+
+  background-color: var(--blue-dark);
+  border: 1px solid var(--blue-dark);
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: background-color 0.25s ease, border 0.25s ease;
+}
+
+.addTask:hover {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+.deleteTask {
+  line-height: 24px;
+}
+
+.deleteTask:hover {
+}

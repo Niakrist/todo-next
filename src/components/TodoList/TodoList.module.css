@@ -1,0 +1,6 @@
+.item {
+  margin-bottom: 12px;
+}
+.item:last-child {
+  margin-bottom: 0px;
+}

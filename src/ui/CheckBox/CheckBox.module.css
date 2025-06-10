@@ -1,0 +1,32 @@
+.input {
+  display: none;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  transition: border 0.25s ease;
+}
+.label:hover {
+  border: 2px solid var(--purpledark);
+}
+
+.isDone {
+  background-color: var(--purpledark);
+  border: 2px solid var(--purpledark);
+  transition: background-color 0.25s ease, border 0.25s ease;
+}
+
+.isDone:hover {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+}

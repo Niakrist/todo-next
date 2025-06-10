@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--gray-700);
+}
