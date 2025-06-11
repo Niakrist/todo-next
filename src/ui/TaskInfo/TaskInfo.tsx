@@ -26,7 +26,7 @@ export const TaskInfo = ({
         {children}
       </p>{" "}
       <p className={styles.quantity}>
-        {doneTask ? doneTask + " из " + allTask : allTask}
+        {typeof doneTask === "number" ? doneTask + " из " + allTask : allTask}
       </p>
     </div>
   );
