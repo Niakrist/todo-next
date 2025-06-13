@@ -24,5 +24,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    npm run build
 3. Проверка сборки
    NODE_ENV=production npm start
-4. Создаем в корне доекр файл
-   DockerFile
+4. Создаем в корне докер файл
+   Dockerfile
+
+5. Запуск контейнера
+   docker build -t client .
