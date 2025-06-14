@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    Dockerfile
 
 5. Сборка контейнера
-   docker build -t client .
+   docker build -t todo .
 6. Посмотреть запущеные контейнеры
    docker ps
 7. Посмотртеть images
@@ -44,6 +44,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    container_name: todo // Имя контейнера
    restart: always
    ports: - 3000:3000
-
 10. Запуск контейнера
     docker-compose up -d
