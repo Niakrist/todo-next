@@ -46,3 +46,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 10. Запуск контейнера
     docker-compose up -d
 11. .github/workflows/main.yml
+12. Сгенерировать токен
