@@ -26,7 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    NODE_ENV=production npm start
 4. Создаем в корне докер файл
    Dockerfile
-
 5. Сборка контейнера
    docker build -t todo .
 6. Посмотреть запущеные контейнеры
